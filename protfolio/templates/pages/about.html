@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+   <section id="about" style="background-color:black;">
+
+   	<div class="row section-intro">
+   		<div class="col-twelve">
+
+   			<h5>About</h5>
+   			<h1>Let me introduce myself.</h1>
+
+   			<div class="intro-info">
+
+   				<img class="card-img-top" src="{% static 'profile.png' %}" style="height: 27rem;
+width: 26rem; margin-right: 6rem;
+margin-bottom: 10rem;" alt="Profile Picture" >
+
+   				<p class="lead">I am a Fullstack web developer with good knowledge of front-end and backend techniques in Django Framework. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.</p>
+   			</div>
+
+   		</div>
+   	</div> <!-- /section-intro -->
+
+   	<div class="row about-content">
+
+   		<div class="col-six tab-full">
+
+   			<h3>Profile</h3>
+   			<ul class="info-list">
+   				<li>
+   					<strong>Fullname:</strong>
+   					<span>Voktibikash Roy</span>
+   				</li>
+   				<li>
+   					<strong>Birth Date:</strong>
+   					<span>12 June, 1997</span>
+   				</li>
+   				<li>
+   					<strong>Status:</strong>
+   					<span>Student</span>
+   				</li>
+   				<li>
+   					<strong>Website:</strong>
+   					<span>www.vokti77.com</span>
+   				</li>
+   				<li>
+   					<strong>Email:</strong>
+   					<span>vokti77@gmail.com</span>
+   				</li>
+
+   			</ul> <!-- /info-list -->
+
+   		</div>
+
+   		<div class="col-six tab-full">
+
+   			<h3>Skills</h3>
+				<ul class="skill-bars">
+
+				   <li>
+				   	<div class="progress percent65"><span>65%</span></div>
+				   	<strong>Django Framework</strong>
+				   </li>
+
+				   <li>
+				   	<div class="progress percent40"><span>40%</span></div>
+				   	<strong>Laravel Framework</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>HTML5,CSS3 & JQuery</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent75"><span>75%</span></div>
+				   	<strong>C Programing</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent30"><span>30%</span></div>
+				   	<strong>C#</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent40"><span>40%</span></div>
+				   	<strong>JAVA</strong>
+				   </li>
+					<li>
+				   	<div class="progress percent45"><span>45%</span></div>
+				   	<strong>PHP</strong>
+				   </li>
+				   <li>
+				   	<div class="progress percent70"><span>70%</span></div>
+				   	<strong>PYTHON</strong>
+				   </li>
+				</ul> <!-- /skill-bars -->
+   		</div>
+
+   	</div>
+
+   	<div class="row button-section">
+   		<div class="col-twelve">
+   			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
+   			<a href="#" title="Download CV" class="button button-primary">Download CV</a>
+   		</div>
+   	</div>
+
+   </section>
+{% endblock %}
+
